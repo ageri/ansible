@@ -1,7 +1,0 @@
----
-- hosts: localhost
-  tasks:
-  
-  - name: ANSISTRANO | Criando Diretorio de Logs
-    file: path=/root/log state=directory mode=0755
-
